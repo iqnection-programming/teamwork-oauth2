@@ -11,7 +11,7 @@ composer require iqnection-programming/teamwork-oauth2
 ```
 
 ## Usage
-View examples in the [examples](https://github.com/iqnection-programming/teamwork-oauth2/examples) directory
+View examples in the [example](https://github.com/iqnection-programming/teamwork-oauth2/tree/master/example) directory
 
 ### Authorization Code Flow
 
