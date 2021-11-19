@@ -24,8 +24,6 @@ $provider = new \IQnectionProgramming\TeamworkOAuth2\Provider\Teamwork([
 ```
 For further usage of this package please refer to the [core package documentation on "Authorization Code Grant"](https://github.com/thephpleague/oauth2-client#usage).
 
-For further usage of this package please refer to the [core package documentation on "Refreshing a Token"](https://github.com/thephpleague/oauth2-client#refreshing-a-token).
-
 ## Testing
 
 ``` bash
@@ -34,4 +32,4 @@ $ ./vendor/bin/phpunit
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/iqnection-programming/teamwork-oauth2/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/iqnection-programming/teamwork-oauth2/blob/master/LICENSE.md) for more information.
