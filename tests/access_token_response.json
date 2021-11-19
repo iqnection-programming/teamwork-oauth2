@@ -1,0 +1,33 @@
+{
+  "access_token": "this-is-a-test-token-string",
+  "installation": {
+    "id": 123456,
+    "name": "Mock Company",
+    "url": "https:\/\/mock.teamwork.com\/",
+    "region": "US",
+    "logo": "",
+    "loginStartText": "",
+    "apiEndPoint": "https:\/\/mock.teamwork.com\/",
+    "company": {
+      "id": 123456,
+      "name": "Mock Company",
+      "logo": ""
+    },
+    "projectsEnabled": true,
+    "deskEnabled": true,
+    "chatEnabled": false
+  },
+  "status": "ok",
+  "user": {
+    "id": 123456,
+    "firstName": "First",
+    "lastName": "Last",
+    "email": "user@example.com",
+    "avatar": "",
+    "company": {
+      "id": 123456,
+      "name": "Mock Company",
+      "logo": ""
+    }
+  }
+}
