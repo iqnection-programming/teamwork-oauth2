@@ -24,6 +24,17 @@ $provider = new \IQnectionProgramming\TeamworkOAuth2\Provider\Teamwork([
 ```
 For further usage of this package please refer to the [core package documentation on "Authorization Code Grant"](https://github.com/thephpleague/oauth2-client#usage).
 
+### Using your token
+```
+$tokenData = []; <-- Retrieve your token data from your data store
+$token = new \League\OAuth2\Client\Token\AccessToken($tokenData);
+
+$values = $token->getValues();
+
+$tokenString = $token->getToken());
+$apuUrl = $values['installation']['apiEndPoint'];
+```
+
 ## Testing
 
 ``` bash
